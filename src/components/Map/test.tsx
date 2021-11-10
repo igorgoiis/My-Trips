@@ -12,7 +12,7 @@ describe('<Map />', () => {
       })
     ).toBeInTheDocument();
   });
-  /*it('should render with the marker incorrect place', () => {
+  it('should render with the marker incorrect place', () => {
     const place = {
       id: '1',
       name: 'Petrolina',
@@ -36,5 +36,5 @@ describe('<Map />', () => {
 
     expect(screen.getByTitle(/petrolina/i)).toBeInTheDocument();
     expect(screen.getByTitle(/reykjavik/i)).toBeInTheDocument();
-  });*/
+  });
 });
